@@ -41,7 +41,7 @@ controls.minAzimuthAngle = -Math.PI / 2; // Don't let the camera go below the gr
 const gltf_loader=new GLTFLoader()
 let model;
 gltf_loader.load('./model/scene.gltf',(gltf)=>{ model=gltf.scene;model.scale.set(4,4,4);model.position.set(0,-7,0);scene.add(model);model.rotation.y = Math.PI+0.5;})    
-const ambientLight = new THREE.AmbientLight('blue', 1)
+const ambientLight = new THREE.AmbientLight('purple', 1)
 scene.add(ambientLight)
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -69,14 +69,7 @@ window.addEventListener('mousemove',()=>{
 
 //////////////////////////////////////////////// content  ///////////////////////////////////////////////////////////
 
-/*
 
-  #homeDiv - #homeHeading
-  #aboutDiv - #aboutQuote, #aboutHeading, #aboutParagraph, #skillsHeading, #skillsQuote, #skillsParagraph
-  #projectDiv -> #projectHeading, #projectList -> .projectListItem .projectListItemHeading, .projectListItemParagraph, .projectListItemLink
-  #contactDiv -> #contactHeading, #contactList -> .contactListItem  .contactListItemLink
-
-*/
 
 /*
    homeDiv
@@ -85,8 +78,6 @@ window.addEventListener('mousemove',()=>{
 const homeDiv = document.getElementById('homeDiv')
 const homeHeading = document.getElementById('homeHeading')
 
-
-homeDiv.style.minHeight = window.innerHeight-20+'px'
 homeDiv.style.maxWidth = window.innerWidth+'px'
 homeDiv.style.maxHeight = window.innerHeight+'px'
 
