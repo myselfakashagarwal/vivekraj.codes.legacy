@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+html,body
+{
+  background-color:black;
+}
+ul
+{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  text-align: center;
+}
+li
+{
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+a
+{
+  text-decoration: none;
+  color:palegoldenrod;
+}
+
+/* ---------------------------------------------canvas and tools for spacing and 3d ----------------------------------------*/
+
+.webgl 
+{
+  position: absolute;
+  top: 0;
+  right: 0%;
+  left: 0%;
+  z-index: 1; 
+  overflow-x: hidden;
+}
+/*------------------------------------------------------------content-------------------------------------------------*/
+
+#homeHeading
+{
+  font-size: 70px;
+  padding: 20px;
+  color:white;
+  font-family:'Lobster';
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  text-align: center;
+}
+
