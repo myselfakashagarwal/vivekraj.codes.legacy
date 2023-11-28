@@ -63,9 +63,7 @@ const tick = () =>
 }
 tick()
 
-window.addEventListener('mousemove',()=>{
-    model.rotation.y = (event.clientX - (window.innerWidth/2))/200
-})
+
 
 //////////////////////////////////////////////// content  ///////////////////////////////////////////////////////////
 
@@ -85,3 +83,7 @@ if(device == "desktop")
 {
     homeHeading.style.fontSize = '150px' // else the font size will be 80px via css with same padding of 20px
 }
+
+homeDiv.addEventListener('mousemove',()=>{
+    model.rotation.y = (event.clientX - (window.innerWidth/1.5))/100
+})
