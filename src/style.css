@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
 
 *
 {
@@ -73,28 +73,30 @@ a
   z-index: 2;
 }
 
+
 #aboutParagraph
 {
   text-align: center;
-  font-size: 20px;
+  font-size: 33px;
+  font-family:'Lobster';
 }
 
 .headings
 {
-  font-size: 70px;
+  font-size: 60px;
   padding: 20px;
   color:white;
-  font-family:'Lobster';
+  font-family: 'Homemade Apple', cursive;
   margin-top: 10px;
   text-align: center;
 }
 
 .paragraphs
 {
-  font-size: 16px;
+  font-size: 20px;
   padding: 30px;
   color:white;
-  font-family:'Space Mono';
+  font-family: sans-serif, cursive;
   margin-top: 10px;
   text-align: left;
 }
@@ -102,6 +104,7 @@ a
 #experienceList
 {
   margin-top: 30px;
+  display: inline-block;
 }
 
 .workconnectors
@@ -126,6 +129,12 @@ a
   margin-left: 15px;
   margin-right: 15px;  
 }
+
+.experienceListItemDivParagraphs
+{
+   font-size: 10px;
+}
+
 .heading
 {
   font-family:'Open Sans', 'monospace', sans-serif;
@@ -137,3 +146,86 @@ a
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
+
+#connectDiv
+{
+   margin:30px;
+   padding-bottom: 20px;
+   border-radius: 25px;
+}
+
+.connectListItemLink
+{
+  font-size: 40px;
+  font-weight: bolder;
+  font-family:'Lobster';
+  color:black;
+  text-decoration: none;
+  padding: 30px;
+  border-radius: 20px;
+  color:purple;
+  margin-top: 30px;
+}
+
+/* hall of fame */
+
+#hallOfFameList
+{
+  display: inline-block;
+  width: 100%;
+}
+
+.hallOfFameListItem
+{
+  margin:30px;
+}
+
+.hallOfFameListItemDiv
+{
+  border: 1px dotted darkmagenta;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.hallOfFameListItemDivHeading
+{
+  font-family:sans-serif, cursive;
+  color:plum;
+}
+
+
+/* skills */
+
+#skillsDiv
+{
+   border: 1px solid purple;
+   margin: 15px;
+}
+
+#skillsList
+{
+  display: inline;
+}
+
+.skillsListItemContainerHeading
+{
+  text-align: left;
+  padding: 30px 30px 10px 30px;
+  font-size: 30px;
+  font-family:'Open Sans', 'monospace', sans-serif;
+  color: plum;
+
+}
+.skillsListItemContainerparagraph
+{
+  text-align: left;
+  padding: 5px 30px 10px 30px;
+  font-size: 20px;
+  font-family:sans-serif;
+}
+
+#experienceListItemDivParagraphs
+{
+   font-size: 20px;
+}
