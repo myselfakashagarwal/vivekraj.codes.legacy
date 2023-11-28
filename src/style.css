@@ -162,6 +162,7 @@ a
   color:black;
   text-decoration: none;
   padding: 30px;
+  margin: 30px;
   border-radius: 20px;
   color:purple;
   margin-top: 30px;
@@ -201,11 +202,13 @@ a
 {
    border: 1px solid purple;
    margin: 15px;
+   padding-bottom: 30px;
 }
 
 #skillsList
 {
   display: inline;
+  
 }
 
 .skillsListItemContainerHeading
@@ -225,7 +228,61 @@ a
   font-family:sans-serif;
 }
 
+#experienceDiv
+{
+  padding-bottom: 30px;
+}
+
 #experienceListItemDivParagraphs
 {
    font-size: 20px;
+}
+
+/* projects */
+
+#projectsDiv
+{
+  margin: 15px;
+  border:1px solid purple;
+}
+
+.projectListItem
+{
+  margin: 20px;
+  padding-bottom: 30px;
+}
+
+.projectListItemContainer
+{
+   padding: 15px;
+   border: 1px solid purple;
+   max-width: 400px;
+   min-height: 400px;
+   border-radius: 15px;
+}
+
+.projectListItemContainerHeading
+{
+   padding: 15px;
+   color: plum;
+   font-size: 30px;
+   font-family: sans-serif;
+}
+
+.projectListItemContainerParagraph
+{
+   
+   color: aliceblue;
+   font-size: 20px;
+   font-family: sans-serif;
+   padding: 15px;
+}
+
+.projectListItemContainerLink
+{
+  padding: 20px;
+  margin-top: 10px;
+   color: pink;
+   font-size: 20px;
+   font-family: sans-serif;
 }
