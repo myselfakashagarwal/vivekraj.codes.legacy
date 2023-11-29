@@ -13,6 +13,7 @@ body::-webkit-scrollbar {
 html,body
 {
   background-color:black;
+  max-width: 90%;
 }
 ul
 {
