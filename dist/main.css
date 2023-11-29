@@ -13,7 +13,6 @@ body::-webkit-scrollbar {
 html,body
 {
   background-color:black;
-  max-width: 90%;
 }
 ul
 {
@@ -84,6 +83,7 @@ a
   top:100%;
   z-index: 2;
   color:white;
+  width: 99%;
 }
 
 #homeDiv
@@ -214,7 +214,7 @@ a
 
 .projectListItemContainer
 {
-  padding: 15px;
+  padding: 10px;
   border: 1px solid purple;
   max-width: 400px;
   min-height: 400px;
@@ -240,7 +240,7 @@ a
 
 .projectListItemContainerLink
 {
-  padding: 20px;
+  padding: 15px;
   margin-top: 10px;
   color: pink;
   font-size: 20px;
